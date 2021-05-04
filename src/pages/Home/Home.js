@@ -6,7 +6,7 @@ function Home() {
     <div className="container">
       <div className="title">
         <h1>Flex Wallet</h1>
-        <p>Um forma fácil e descontraída de organizar suas finanças.</p>
+        <p>Uma forma fácil e descontraída de organizar suas finanças.</p>
       </div>
 
       <div className="Caroussel"></div>
