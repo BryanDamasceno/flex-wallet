@@ -1,7 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Routes from "./routes";
 
 function App() {
+<<<<<<< HEAD
   return (
     <div className="App">
       <header className="App-header">
@@ -22,6 +23,9 @@ function App() {
       </header>
     </div>
   );
+=======
+  return <Routes />;
+>>>>>>> 8a1885920a96cfc4d83f6aee7f7935eb6799c2e8
 }
 
 export default App;
