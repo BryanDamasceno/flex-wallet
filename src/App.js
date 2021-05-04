@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Routes from "./routes";
 
 function App() {
-  return <div className="App">Batata</div>;
+  return <Routes />;
 }
 
 export default App;
