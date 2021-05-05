@@ -27,9 +27,14 @@
   display: flex;
   align-items: flex-end;
   flex-direction: column;
+  justify-content: center;
 }
 
 .button {
+  width: 180px;
+  height: 60px;
+  border-radius: 5px;
+  text-align: center;
   background: #c182d0;
   color: rgb(0, 0, 0);
   font-family: "Permanent Marker";
