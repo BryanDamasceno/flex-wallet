@@ -22,3 +22,27 @@
   margin: 10px;
   font-size: 1.2rem;
 }
+
+.register {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.register > p1 {
+  background-color: #c182d0;
+  color: rgb(0, 0, 0);
+  font-family: "Permanent Marker";
+  margin: 5px;
+  font-size: 1.5rem;
+  font-weight: 150;
+}
+
+.register > p2 {
+  background-color: #c182d0;
+  color: rgb(0, 0, 0);
+  font-family: "Permanent Marker";
+  margin: 5px;
+  font-size: 1.5rem;
+  font-weight: 150;
+}

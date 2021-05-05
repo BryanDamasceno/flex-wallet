@@ -10,7 +10,10 @@ function Home() {
       </div>
 
       <div className="Caroussel"></div>
-      <div className="register"></div>
+      <div className="register">
+          <p1>Cadastre-se</p1>
+          <p2>Login</p2>
+      </div>     
     </div>
   );
 }
