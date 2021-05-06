@@ -7,6 +7,8 @@ function Routes() {
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/cadastro" />
+        <Route path="/login" />
       </Switch>
     </BrowserRouter>
   );
