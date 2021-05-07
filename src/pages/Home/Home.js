@@ -11,7 +11,29 @@ function Home() {
       </div>
 
       <div className="content">
-        <div className="caroussel"></div>
+
+        <div className="caroussel">
+
+      <input type="radio" class="slide-controller" name="slide" ></input>
+      <input type="radio" class="slide-controller" name="slide" ></input>
+      <input type="radio" class="slide-controller" name="slide" ></input>
+      <input type="radio" class="slide-controller" name="slide" ></input>
+
+          <ul class="slider">
+            <li class ="slide">
+              <img src="img1.png" alt="" />
+            </li>
+            <li class ="slide">
+              <img src="img2.jpg" alt=""  />
+            </li>
+            <li class ="slide">
+              <img src="img3.jpg" alt=""  />
+            </li>
+            <li class ="slide">
+              <img src="img4.png" alt=""  />
+            </li>
+          </ul>
+        </div>
 
         <div className="register">
           <Link to="cadastro">

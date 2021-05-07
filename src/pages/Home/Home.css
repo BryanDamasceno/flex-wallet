@@ -60,11 +60,95 @@
 }
 
 .caroussel {
-  background-color: blue;
-  height: 60vh;
-  width: 40%;
+  background-color: #b06565;
+  height: 500px;
+  width: 841px;
   margin: 5vw 15vw 1vw 10vw;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
 }
+
+.slider {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  --total-items: 4;
+  width: calc(var(--total-items) * 100%);
+  position: relative;
+  --selected-item: 0;
+  left: calc(var(--selected-item) * -100%);
+  transition: left 0.4s;
+}
+
+.slider img {
+  margin: none;
+  height: 95%;
+  width: 95%;
+}
+
+.slide-controller:nth-child(1):checked ~ .slider {
+  --selected-item: 0;
+}
+.slide-controller:nth-child(2):checked ~ .slider {
+  --selected-item: 1;
+}
+.slide-controller:nth-child(3):checked ~ .slider {
+  --selected-item: 2;
+}
+.slide-controller:nth-child(4):checked ~ .slider {
+  --selected-item: 3;
+}
+
+/*
+.slider input {
+  display: none;
+}
+
+.slider label {
+  background-color: #8d8b8b;
+  bottom: 235px;
+  cursor: pointer;
+  display: block;
+  height: 15px;
+  position: absolute;
+  width: 15px;
+  z-index: 10;
+}
+
+.slider label:hover {
+  background: #6d6d6d;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s ease-out;
+}
+
+.slider li input:checked ~ img {
+  background: #6d6d6d;
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+*/
+
+/*
+.slider li:nth-child(1) label {
+  left: 240px;
+}
+
+.slider li:nth-child(2) label {
+  left: 270px;
+}
+
+.slider li:nth-child(3) label {
+  left: 300px;
+}
+
+.slider li:nth-child(4) label {
+  left: 330px;
+}
+*/
 
 .content {
   display: flex;
