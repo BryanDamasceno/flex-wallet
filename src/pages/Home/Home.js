@@ -15,25 +15,29 @@ function Home() {
         <div className="caroussel">
 
       <input type="radio" class="slide-controller" name="slide" id="slide0"></input>
+ 
       <input type="radio" class="slide-controller" name="slide" id="slide1"></input>
+    
       <input type="radio" class="slide-controller" name="slide" id="slide2"></input>
+      
       <input type="radio" class="slide-controller" name="slide" id="slide3"></input>
+      
 
           <ul class="slider">
             <li class ="slide">
-              <label for="slide0"></label>
+            <label for="slide0" class="inputlabel"></label>
               <img src="img1.png" alt="" />
             </li>
             <li class ="slide">
-            <label for="slide1"></label>
+            <label for="slide1" class="inputlabel"></label>
               <img src="img2.jpg" alt=""  />
             </li>
             <li class ="slide">
-            <label for="slide2"></label>
+            <label for="slide2" class="inputlabel"></label>
               <img src="img3.jpg" alt=""  />
             </li>
             <li class ="slide">
-            <label for="slide3"></label>
+            <label for="slide3" class="inputlabel"></label>
               <img src="img4.png" alt=""  />
             </li>
           </ul>

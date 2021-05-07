@@ -81,7 +81,7 @@
   position: relative;
   --selected-item: 0;
   left: calc(var(--selected-item) * -100%);
-  transition: left 0.4s;
+  transition: left 0.5s;
 }
 
 .slider img {
@@ -105,12 +105,12 @@
 
 /*
 .caroussel input {
-  background-color: #8d8b8b;
+  display: none;
 }
 
 .caroussel label {
   background-color: #8d8b8b;
-  bottom: 235px;
+  bottom: 30px;
   cursor: pointer;
   display: block;
   height: 15px;
@@ -124,6 +124,24 @@
   color: rgb(0, 0, 0);
   transition: all 0.3s ease-out;
 }
+/*
+
+.slider li:nth-child(0) label {
+    left: 10px;
+}
+
+.slider li:nth-child(1) label {
+    left: 40px;
+}
+
+.slider li:nth-child(2) label {
+    left: 70px;
+}
+
+.slider li:nth-child(3) label {
+    left: 100px;
+}
+
 
 .caroussel li input:checked ~ img {
   background: #6d6d6d;
@@ -132,23 +150,8 @@
   z-index: 10;
 }
 
-.caroussel li:nth-child(0) label {
-  left: 240px;
-}
-
-.caroussel li:nth-child(1) label {
-  left: 270px;
-}
-
-.carousell li:nth-child(2) label {
-  left: 300px;
-}
-
-.slider li:nth-child(3) label {
-  left: 330px;
-}
-
 */
+
 .content {
   display: flex;
   flex-direction: row;
