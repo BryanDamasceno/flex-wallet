@@ -1,5 +1,6 @@
 .container {
   background-color: #f2f8f7;
+  height: 100vh;
 }
 
 .title {
@@ -70,7 +71,7 @@
 
 .slider {
   list-style-type: none;
-  margin: auto;
+  margin: 0 0 0 20px;
   padding: 0;
   display: grid;
   grid-auto-flow: column;
@@ -103,11 +104,11 @@
 }
 
 /*
-.slider input {
-  display: none;
+.caroussel input {
+  background-color: #8d8b8b;
 }
 
-.slider label {
+.caroussel label {
   background-color: #8d8b8b;
   bottom: 235px;
   cursor: pointer;
@@ -118,38 +119,36 @@
   z-index: 10;
 }
 
-.slider label:hover {
+.caroussel label:hover {
   background: #6d6d6d;
   color: rgb(0, 0, 0);
   transition: all 0.3s ease-out;
 }
 
-.slider li input:checked ~ img {
+.caroussel li input:checked ~ img {
   background: #6d6d6d;
   opacity: 1;
   visibility: visible;
   z-index: 10;
 }
-*/
 
-/*
-.slider li:nth-child(1) label {
+.caroussel li:nth-child(0) label {
   left: 240px;
 }
 
-.slider li:nth-child(2) label {
+.caroussel li:nth-child(1) label {
   left: 270px;
 }
 
-.slider li:nth-child(3) label {
+.carousell li:nth-child(2) label {
   left: 300px;
 }
 
-.slider li:nth-child(4) label {
+.slider li:nth-child(3) label {
   left: 330px;
 }
-*/
 
+*/
 .content {
   display: flex;
   flex-direction: row;
