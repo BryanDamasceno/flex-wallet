@@ -5,11 +5,17 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="container">
+
+          <div className="header">
+           <img className="vectorgreen" src="vectorgreen.svg" alt=""></img>
+           <img className="vectorblue"  src="vectorblue.svg"  alt=""></img>
+           
+
       <div className="title">
         <h1>Flex Wallet</h1>
         <p>Uma forma fácil e descontraída de organizar suas finanças.</p>
       </div>
-
+      </div>
       <div className="content">
        <div class="caroussel">
         <div class="slider">

@@ -3,6 +3,25 @@
   height: 100vh;
 }
 
+.header {
+  margin: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  -ms-flex-align: start;
+  justify-content: center;
+}
+
+.vectorgreen {
+  width: 15vh;
+  height: 15vh;
+}
+
+.vectorblue {
+  width: 30vh;
+  height: 30vh;
+}
+
 .title {
   display: flex;
   align-items: center;
