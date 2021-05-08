@@ -2,6 +2,16 @@ import React from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 
+
+var counter = 1;
+          setInterval(function(){
+          document.getElementById('radio' + counter).checked = true;
+          counter ++;
+         if(counter > 4){
+         counter = 1
+          }
+        }, 5000);
+
 function Home() {
   return (
     <div className="container">
@@ -51,24 +61,7 @@ function Home() {
             <label for="radio4" class="manual-btn"></label>
           </div>
         </div>
-
-
-
-        {/*
-          Não sei porque isso não tá funcionando, é pra ser a parte que muda automático as fotos do carrosel.
-        <script>
-          int contador = 1;
-          setInterval(function(){
-            document.getElementById('radio' + contador).checked = true}
-            contador ++
-            if(contador > 4){
-              contador = 1
-            }
-            , 5000);
-        </script>
-      */}
-
-
+       
         </div>
         <div className="register">
           <Link to="cadastro">
