@@ -12,11 +12,17 @@
   justify-content: center;
 }
 
-.vectorgreen {
-  width: 10vh;
-  height: 15vh;
+.vectors {
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+  margin: 0;
 }
 
+.vectorgreen {
+  width: 25%;
+  padding-bottom: 25vh;
+}
 .vectorblue {
   width: 20vh;
   height: 25vh;
@@ -26,6 +32,12 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin: none;
+  padding: 0;
+  display: flex;
+
+  -ms-flex-align: start;
+  justify-content: center;
 }
 
 .title > h1 {
@@ -81,21 +93,21 @@
 
 .caroussel {
   background-color: #b06565;
-  height: 550px;
-  width: 925px;
+  height: 33rem;
+  width: 54rem;
   margin: 5vw 15vw 1vw 10vw;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
-  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
 }
 
 .slider {
   height: 500px;
   width: 841px;
-  border-radius: 10px;
+  border-radius: 2px;
   overflow: hidden;
 }
 
