@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home/Home";
+import Login from "./pages/Login/Login";
 
 function Routes() {
   return (
@@ -8,7 +9,7 @@ function Routes() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/cadastro" />
-        <Route path="/login" />
+        <Route path="/login" exact component={Login} />
       </Switch>
     </BrowserRouter>
   );
