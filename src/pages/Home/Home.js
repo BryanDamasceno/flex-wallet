@@ -10,7 +10,7 @@ function Home() {
         <p>Uma forma fácil e descontraída de organizar suas finanças.</p>
       </div>
       <div className="vectors">
-        <img className="vectorgreen" src="vectorgreen.svg" alt=""></img>
+        <img className="vector" src="component.svg" alt=""></img>
       </div>
 
       <div className="content">
