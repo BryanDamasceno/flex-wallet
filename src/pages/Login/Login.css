@@ -69,21 +69,21 @@
   height: 5rem;
   border-radius: 5px;
   text-align: center;
-  background: #b466c7;
-  color: rgb(0, 0, 0);
+  background: #6e377b;
+  color: rgb(255, 255, 255);
   font-family: "Permanent Marker";
   margin: 2vw;
   border: none;
   font-size: 2.5rem;
   font-weight: 200;
   cursor: pointer;
-  box-shadow: 0 6px 0 #b542d0;
+  box-shadow: 0 6px 0 #5a2b64;
 }
 
 .button:hover {
-  background: #b542d0;
-  color: rgb(0, 0, 0);
-  box-shadow: 0 5px 0 #a031b9;
+  background: #5a2b64;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 5px 0 #4c2255;
   transition: all 0.3s ease-out;
 }
 
