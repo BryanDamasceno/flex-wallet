@@ -80,7 +80,7 @@
   margin: 1vw;
 }
 
-.button {
+.buttonlc {
   width: 22rem;
   height: 5rem;
   border-radius: 5px;
@@ -96,14 +96,14 @@
   box-shadow: 0 6px 0 #5a2b64;
 }
 
-.button:hover {
+.buttonlc:hover {
   background: #5a2b64;
   color: rgb(255, 255, 255);
   box-shadow: 0 5px 0 #4c2255;
   transition: all 0.3s ease-out;
 }
 
-.button:active {
+.buttonlc:active {
   position: relative;
   top: 6px;
   box-shadow: none;
