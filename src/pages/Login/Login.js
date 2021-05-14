@@ -10,8 +10,10 @@ function Login() {
                 <div className="login">
                     <input type="email" placeholder="E-mail" className="email"></input>
                     <input type="password" placeholder="Senha" className="senha"></input>
-                    <label>Esqueceu sua senha?</label>
-                    <input type="submit" name="acao" value="Login"></input>
+                    <a href="url">Esqueceu sua senha?</a>
+                    <Link to="profile">
+                    <button className="button">Login</button>
+                    </Link>
             </div>
             </div>
 

@@ -63,3 +63,32 @@
   text-align: start;
   margin: 1vw;
 }
+
+.button {
+  width: 22rem;
+  height: 5rem;
+  border-radius: 5px;
+  text-align: center;
+  background: #b466c7;
+  color: rgb(0, 0, 0);
+  font-family: "Permanent Marker";
+  margin: 2vw;
+  border: none;
+  font-size: 2.5rem;
+  font-weight: 200;
+  cursor: pointer;
+  box-shadow: 0 6px 0 #b542d0;
+}
+
+.button:hover {
+  background: #b542d0;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 5px 0 #a031b9;
+  transition: all 0.3s ease-out;
+}
+
+.button:active {
+  position: relative;
+  top: 6px;
+  box-shadow: none;
+}
