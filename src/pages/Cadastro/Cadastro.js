@@ -13,8 +13,10 @@ function Cadastro() {
                     <input type="email" placeholder="E-mail" className="email"></input>
                     <input type="password" placeholder="Senha" className="senha"></input>
                     <input type="password" placeholder="Confirme sua senha" className="senha"></input>
+                    <Link to="profile">
+                    <button className="button">Login</button>
+                    </Link>
                     
-
             </div>
             </div>
 
