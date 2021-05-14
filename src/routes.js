@@ -1,14 +1,18 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home/Home";
+import Login from "./pages/Login/Login";
+import Cadastro from "./pages/Cadastro/Cadastro";
+
+
 
 function Routes() {
   return (
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/cadastro" />
-        <Route path="/login" />
+        <Route path="/cadastro" exact component={Cadastro}/>
+        <Route path="/login" exact component={Login} />
       </Switch>
     </BrowserRouter>
   );

@@ -1,0 +1,110 @@
+.container {
+  background-color: #f2f8f7;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: none;
+  padding: 0;
+  display: flex;
+
+  -ms-flex-align: start;
+  justify-content: center;
+}
+
+.title > h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Permanent Marker";
+  margin: 5px;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.vectors {
+  height: 20vh;
+  width: 20vh;
+  position: absolute;
+  left: -1vw;
+  top: -0.2vw;
+  margin: 0;
+}
+
+.vector {
+  width: 100%;
+  height: 100%;
+}
+
+.cadastro {
+  background-color: #c182d0;
+  height: 40rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.nome {
+  width: 20vw;
+  height: 2vw;
+  border-radius: 5px;
+  text-align: start;
+  margin: 1vw;
+}
+
+.cpf {
+  width: 20vw;
+  height: 2vw;
+  border-radius: 5px;
+  text-align: start;
+  margin: 1vw;
+}
+
+.email {
+  width: 20vw;
+  height: 2vw;
+  border-radius: 5px;
+  text-align: start;
+  margin: 1vw;
+}
+
+.senha {
+  width: 20vw;
+  height: 2vw;
+  border-radius: 5px;
+  text-align: start;
+  margin: 1vw;
+}
+
+.buttonlc {
+  width: 22rem;
+  height: 5rem;
+  border-radius: 5px;
+  text-align: center;
+  background: #6e377b;
+  color: rgb(255, 255, 255);
+  font-family: "Permanent Marker";
+  margin: 2vw;
+  border: none;
+  font-size: 2.5rem;
+  font-weight: 200;
+  cursor: pointer;
+  box-shadow: 0 6px 0 #5a2b64;
+}
+
+.buttonlc:hover {
+  background: #5a2b64;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 5px 0 #4c2255;
+  transition: all 0.3s ease-out;
+}
+
+.buttonlc:active {
+  position: relative;
+  top: 6px;
+  box-shadow: none;
+}

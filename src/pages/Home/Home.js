@@ -34,12 +34,14 @@ function Home() {
               <div class="slide">
                 <img src="img4.png" alt=""></img>
               </div>
+             
               <div class="navigation-auto">
                 <div class="auto-btn1"></div>
                 <div class="auto-btn2"></div>
                 <div class="auto-btn3"></div>
                 <div class="auto-btn4"></div>
               </div>
+             
             </div>
             <div class="navigation-manual">
               <label for="radio1" class="manual-btn"></label>

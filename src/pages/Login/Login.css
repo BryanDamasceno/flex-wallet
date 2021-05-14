@@ -1,0 +1,94 @@
+.container {
+  background-color: #f2f8f7;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: none;
+  padding: 0;
+  display: flex;
+
+  -ms-flex-align: start;
+  justify-content: center;
+}
+
+.title > h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Permanent Marker";
+  margin: 5px;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.vectors {
+  height: 20vh;
+  width: 20vh;
+  position: absolute;
+  left: -1vw;
+  top: -0.2vw;
+  margin: 0;
+}
+
+.vector {
+  width: 100%;
+  height: 100%;
+}
+
+.login {
+  background-color: #c182d0;
+  height: 35rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.email {
+  width: 20vw;
+  height: 2vw;
+  border-radius: 5px;
+  text-align: start;
+  margin: 1vw;
+}
+
+.senha {
+  width: 20vw;
+  height: 2vw;
+  border-radius: 5px;
+  text-align: start;
+  margin: 1vw;
+}
+
+.button {
+  width: 22rem;
+  height: 5rem;
+  border-radius: 5px;
+  text-align: center;
+  background: #b466c7;
+  color: rgb(0, 0, 0);
+  font-family: "Permanent Marker";
+  margin: 2vw;
+  border: none;
+  font-size: 2.5rem;
+  font-weight: 200;
+  cursor: pointer;
+  box-shadow: 0 6px 0 #b542d0;
+}
+
+.button:hover {
+  background: #b542d0;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 5px 0 #a031b9;
+  transition: all 0.3s ease-out;
+}
+
+.button:active {
+  position: relative;
+  top: 6px;
+  box-shadow: none;
+}
