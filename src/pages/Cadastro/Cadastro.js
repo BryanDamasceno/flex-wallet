@@ -14,7 +14,7 @@ function Cadastro() {
                     <input type="password" placeholder="Senha" className="senha"></input>
                     <input type="password" placeholder="Confirme sua senha" className="senha"></input>
                     <Link to="profile">
-                    <button className="buttonlc">Login</button>
+                    <button className="buttonlc">Cadastrar</button>
                     </Link>
                     
             </div>
